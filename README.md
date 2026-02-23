@@ -1,10 +1,4 @@
 
----
-
-# 🟣 Upgrade opcional (nível MUITO forte)
-
-Adicione no topo:
-
 ```md
 > Engineering user-centric digital products with scalable architecture.
 
