@@ -113,7 +113,7 @@ export default function Hero() {
 
             {/* Download CV */}
             <a
-              href="/LuizBarcelarCurrículo.pdf"
+              href="/LuizBarcelar_FullStack_Developer.pdf"
               download
               className="
                 flex items-center justify-center gap-2
