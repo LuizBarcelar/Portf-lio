@@ -89,21 +89,40 @@ export default function ProjectsSection() {
                 </div>
               )}
 
-              {project.link && (
-                <a
-                  href={project.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="
-                    mt-4 flex items-center gap-2 
-                    text-purple-600 dark:text-purple-400 font-medium 
-                    hover:text-purple-700 dark:hover:text-purple-300 
-                    transition
-                  "
-                >
-                  Ver projeto <ExternalLink size={18} />
-                </a>
-              )}
+              <div className="flex gap-4 mt-4">
+                {project.link && (
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="
+                      flex items-center gap-2 
+                      text-purple-600 dark:text-purple-400 font-medium 
+                      hover:text-purple-700 dark:hover:text-purple-300 
+                      transition
+                    "
+                  >
+                    Ver projeto <ExternalLink size={18} />
+                  </a>
+                )}
+
+                {project.repo && (
+                  <a
+                    href={project.repo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="
+                      flex items-center gap-2 
+                      text-gray-600 dark:text-gray-400 font-medium 
+                      hover:text-gray-800 dark:hover:text-gray-200 
+                      transition
+                    "
+                  >
+                    GitHub <ExternalLink size={18} />
+                  </a>
+                )}
+              </div>
+              
             </div>
 
             {/* Glow */}

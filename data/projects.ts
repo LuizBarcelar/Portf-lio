@@ -17,27 +17,27 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    title: "Sales Analytics Dashboard",
+    title: "Chronos Pomodoro",
     role: "Full Stack Developer",
 
     context:
-      "Empresas possuem dificuldade em visualizar performance comercial em tempo real",
+      "Profissionais de tecnologia enfrentam dificuldades para manter foco contínuo durante longas sessões de desenvolvimento",
 
     problem:
-      "Análises manuais em planilhas causavam atraso na tomada de decisão",
+      "Falta de controle estruturado de tempo gera fadiga mental, perda de produtividade e interrupções frequentes",
 
     solution:
-      "Desenvolvi um dashboard interativo com visualização de KPIs em tempo real",
+      "Desenvolvi uma aplicação baseada na técnica Pomodoro para gerenciamento de ciclos de foco e pausas inteligentes",
 
     architecture:
-      "Aplicação construída com Next.js consumindo API REST e renderização otimizada",
+      "Aplicação Web construída em Next.js com gerenciamento de estado, timers reativos e interface animada orientada à experiência do usuário",
 
     impact:
-      "Maior visibilidade sobre métricas de vendas",
+      "Melhoria na consistência de foco e organização de rotinas de trabalho profundo (Deep Work)",
 
-    stack: ["Next.js", "Recharts", "Tailwind"],
+    stack: ["Next.js", "TypeScript", "TailwindCSS", "Framer Motion"],
 
-    type: "Data Product",
+    type: "Web App",
     status: "In Progress",
 
     highlights: [
@@ -46,8 +46,8 @@ export const projects: Project[] = [
       "Arquitetura escalável",
     ],
 
-    link: "#",
-    repo: "#",
-    image: "/projects/dashboard.jpg",
+    link: "https://chronos-pomodoro-gamma-one.vercel.app",
+    repo: "https://github.com/LuizBarcelar/chronos-pomodoro",
+    image: "/projects/chronos-pomodoro.png",
   },
 ];
