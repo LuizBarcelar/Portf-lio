@@ -50,4 +50,39 @@ export const projects: Project[] = [
     repo: "https://github.com/LuizBarcelar/chronos-pomodoro",
     image: "/projects/chronos-pomodoro.png",
   },
+
+  {
+    title: "Arquiteto Premium Portfolio",
+    role: "Front-End Developer & UX Designer",
+
+    context:
+      "Escritórios de arquitetura de luxo precisam de uma presença digital que transmita exclusividade e profissionalismo imediato.",
+
+    problem:
+      "Portfólios genéricos falham em reter a atenção do cliente e não oferecem uma experiência personalizada para mercados internacionais.",
+
+    solution:
+      "Desenvolvi um ecossistema bilingue com 'experience loading' de 5 segundos, garantindo que o usuário perceba o valor da marca enquanto os dados são processados.",
+
+    architecture:
+      "SPA (Single Page Application) construída com React, utilizando Context API para gerenciamento de estado global de idiomas e hooks customizados para persistência de dados.",
+
+    impact:
+      "Navegação fluida entre idiomas (PT/EN) e aumento do engajamento através de sistema de favoritos e interface responsiva de alto padrão.",
+
+    stack: ["React", "JavaScript", "Context API", "CSS3", "React Router"],
+
+    type: "Landing",
+    status: "Completed",
+
+    highlights: [
+      "Sistema Bilingue Dinâmico",
+      "Persistência com SessionStorage",
+      "Loading Experience Customizado",
+    ],
+
+    link: "https://dnc-luiz-p3hm.vercel.app/",
+    repo: "https://github.com/LuizBarcelar/dnc-luiz",
+    image: "/projects/portfolio-arquitetura.png", // Lembre de tirar um print e salvar na pasta
+  },
 ];
